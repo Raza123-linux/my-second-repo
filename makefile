@@ -7,8 +7,8 @@ README.md: guessing_game.sh
 	echo "## Guessing the number of files in the current directory" > README.md
 	echo "$$(date)"  >> README.md
 	echo"/n" >> README.md
-	lines=$( wc -l guessing_game.sh) >> README.md 
-	echo -n  "$lines" >> README.md
+	lines=$( wc -l guessing_game.sh ) >> README.md 
+	echo "$lines" >> README.md
 
 
 clean:

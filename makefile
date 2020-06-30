@@ -7,11 +7,10 @@ README.md: guessing_game.sh
 	echo "## Guessing the number of files in the current directory" > README.md
 	echo "$$(date)"  >> README.md
 	echo"/n" >> README.md
-<<<<<<< HEAD
-	grep -c guessing_game.sh >> README.md 
-=======
-	grep -c  guessing_game.sh >> README.md
->>>>>>> 4bb24a040bbdcee8a01532f80f59966eb0a7a134
+	lines=$(cat guessing_game.sh | wc -l) >> README.md 
+
+	echo "$lines" >> README.md
+
 
 clean:
 	rm README.md

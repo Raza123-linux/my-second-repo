@@ -1,7 +1,7 @@
 
 all: README.md
 
-README: guessing_game.sh
+README.md: guessing_game.sh
 
 	touch README.md
 	echo "## Guessing the number of files in the current directory" > README.md

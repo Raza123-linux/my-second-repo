@@ -1,6 +1,6 @@
  # GUESSING GAME PROJECT
  ## Project Submitted to Sean Kross
 
- * Date:ate +%Y-%m-%d
+DATE is ate
 
- *lines=wc -l | guessing_game.sh
+The number of lines are ines

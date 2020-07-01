@@ -8,7 +8,7 @@ README.md: guessing_game.sh
 	echo "$$(date)"  >> README.md
 	echo"/n" >> README.md
 	lines=$( cat  guessing_game.sh | wc -l ) >> README.md 
-	echo "$lines" >> README.md
+	echo "The number of lines are $lines" >> README.md
 
 
 clean:

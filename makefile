@@ -1,6 +1,5 @@
-
+#/bin/usr/env bash
 all: README.md
-
 README.md: guessing_game.sh
 
 	touch README.md
@@ -8,7 +7,7 @@ README.md: guessing_game.sh
 	echo "$$(date)"  >> README.md
 	echo"/n" >> README.md
 	lines=$( cat  guessing_game.sh | wc -l ) >> README.md 
-	echo "The number of lines are $lines" >> README.md
+	echo "$lines" >> README.md
 
 
 clean:

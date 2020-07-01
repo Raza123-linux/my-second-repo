@@ -1,6 +1,6 @@
- ## GUESSING GAME PROJECT
- # Project Submitted to Sean Kross
+ # GUESSING GAME PROJECT
+ ## Project Submitted to Sean Kross
 
- * Date: 
+ * Date:ate +%Y-%m-%d
 
- *lines=
+ *lines=wc -l | guessing_game.sh

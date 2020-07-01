@@ -1,6 +1,6 @@
  # GUESSING GAME PROJECT
  ## Project Submitted to Sean Kross
 
-DATE is ate
+DATE is 
 
-The number of lines are ines
+The number of lines are 

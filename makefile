@@ -5,10 +5,8 @@ README.md: guessing_game.sh
 	touch README.md
 	echo " # GUESSING GAME PROJECT" > README.md
 	echo " ## Project Submitted to Sean Kross\n" >> README.md
-	Date = $(date +%Y-%m-%d)  >> README.md
-	echo "DATE is $(Date)\n" >> README.md
-	lines = $( wc -l | guessing_game.sh) >> README.md
-	echo "The number of lines are $(lines)" >> README.md
+	echo "DATE is" $$(date)\n >> README.md
+	echo "The number of lines are"$$(cat guessing_game.sh | wc -l) >> README.md
 
 
 clean:

@@ -1,1 +1,6 @@
-و 11:01:19 PKT ت 01 جولائی 2020
+ ## GUESSING GAME PROJECT
+ # Project Submitted to Sean Kross
+
+ * Date: 
+
+ *lines=
